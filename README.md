@@ -1,2 +1,23 @@
-# trabalho_lp
-Repositório dedicado aos materiais e trabalhos da disciplina de Linguagem e Técnicas de Programação, do 2º período do curso de Engenharia de Software da Universidade Cesumar.
+## RacingGestor: Sistema de Gestão do Campeonato de Fórmula 1
+
+### 👩‍💻 Estudantes
+
+- **Ana Vitória de Vergennes** — RA: 26004362-2
+- **Arthur Volpato Moreira** — RA: 26004378-2
+- **João Vitor de Moraes Gôngora** — RA: 26003960-2
+- **Leticia Rego de Souza** — RA: 26000282-2
+
+### 🎓 Informações do Curso
+
+- **Curso:** Engenharia de Software
+- **Turma:** B
+- **Turno:** Matutino
+- **Semestre:** 2º Semestre
+
+
+### 🛠️ Tecnologias Utilizadas
+
+- C
+- Git
+- GitHub
+### 📂 Projeto
