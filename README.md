@@ -21,3 +21,5 @@
 - Git
 - GitHub
 ### 📂 Projeto
+
+Este repositório contém os arquivos, códigos e documentos desenvolvidos durante a realização do trabalho.
