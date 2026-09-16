@@ -4,7 +4,7 @@ O **RacingGestor** é um sistema de gerenciamento de campeonatos de Fórmula 1, 
 
 O sistema também permite registrar os resultados das corridas realizadas em cada pista, armazenando a posição obtida por cada piloto. Com essas informações, é possível consultar os detalhes de cada corrida e acompanhar a classificação dos pilotos e das equipes ao longo do campeonato.
 
-Dessa forma, o **RacingGestor** busca centralizar e organizar os dados do campeonato, facilitando o registro das corridas, a consulta dos resultados e o acompanhamento da pontuação e da classificação dos participantes.
+Dessa forma, o nosso sistema busca centralizar e organizar os dados do campeonato, facilitando o registro das corridas, a consulta dos resultados e o acompanhamento da pontuação e da classificação dos participantes.
 
 ## 2. Fluxo de Utilização Esperado para o Sistema
 
