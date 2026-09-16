@@ -1,4 +1,4 @@
-# 1. Descrição do Sistema
+# 1. RacingGestor: Sistema de Gerenciamento de Campeonatos de Fórmula 1
 
 O **RacingGestor** é um sistema de gerenciamento de campeonatos de Fórmula 1, desenvolvido em linguagem C. O sistema tem como objetivo organizar e facilitar o controle das informações relacionadas ao campeonato, permitindo o cadastro de pilotos, equipes e pistas, além da consulta dos dados cadastrados.
 
