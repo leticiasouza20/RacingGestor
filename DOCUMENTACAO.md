@@ -50,6 +50,7 @@ Ao iniciar o **RacingGestor**, o usuário terá acesso ao menu principal, que ap
 
 O **RacingGestor** utilizará as seguintes estruturas heterogêneas (structs) para organizar e armazenar os dados de pilotos, equipes, pistas, corridas e resultados do campeonato.
 
+```c
 // Estrutura para armazenamento dos Pilotos
 typedef struct {
     int id_piloto;
@@ -92,3 +93,4 @@ typedef struct {
     int posicao;
     int pontos;
 } Resultado;
+```
