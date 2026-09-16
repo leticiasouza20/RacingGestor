@@ -1,38 +1,55 @@
-# 1. RacingGestor: Sistema de Gerenciamento de Campeonatos de Fórmula 1
+# Título do Projeto: RacingGestor — Sistema de Gerenciamento de Campeonato de Fórmula 1
 
-O **RacingGestor** é um sistema de gerenciamento de campeonatos de Fórmula 1, desenvolvido em linguagem C. O sistema tem como objetivo organizar e facilitar o controle das informações relacionadas ao campeonato, permitindo o cadastro de pilotos, equipes e pistas, além da consulta dos dados cadastrados.
+## 1. Descrição do Sistema
 
-O sistema também permite registrar os resultados das corridas realizadas em cada pista, armazenando a posição obtida por cada piloto. Com essas informações, é possível consultar os detalhes de cada corrida e acompanhar a classificação dos pilotos e das equipes ao longo do campeonato.
+O **RacingGestor** é um sistema desenvolvido em linguagem C para auxiliar no gerenciamento de campeonatos de Fórmula 1. Seu objetivo é organizar as principais informações relacionadas às competições, permitindo o cadastro e a consulta de pilotos, equipes, pistas e corridas.
 
-Dessa forma, o nosso sistema busca centralizar e organizar os dados do campeonato, facilitando o registro das corridas, a consulta dos resultados e o acompanhamento da pontuação e da classificação dos participantes.
+O sistema possibilita registrar os resultados de cada corrida, relacionando a corrida à pista utilizada e armazenando a posição obtida por cada piloto. Dessa forma, o usuário pode consultar posteriormente os resultados e as informações das corridas cadastradas.
 
+O projeto busca proporcionar uma forma simples e organizada de armazenar e consultar os dados do campeonato, facilitando o acompanhamento das informações dos participantes, das pistas e dos resultados das corridas.
 ## 2. Fluxo de Utilização Esperado para o Sistema
 
-1. Ao iniciar o programa, o usuário visualizará o menu principal do **RacingGestor**, contendo as seguintes opções:
+Ao iniciar o **RacingGestor**, o usuário terá acesso ao menu principal, que apresentará as seguintes opções:
 
-   - 1. Cadastrar piloto
-   - 2. Cadastrar equipe
-   - 3. Cadastrar pista
-   - 4. Listar pilotos
-   - 5. Listar equipes
-   - 6. Listar pistas
-   - 7. Registrar resultado de corrida
-   - 8. Mostrar classificação dos pilotos
-   - 9. Mostrar classificação das equipes
-   - 10. Pesquisar piloto
-   - 11. Mostrar informações de uma corrida
-   - 0. Sair
+### Menu Principal
 
-2. Ao selecionar **Cadastrar piloto**, o sistema solicitará as informações necessárias para realizar o cadastro. O mesmo acontecerá na opção **Cadastrar equipe**, onde serão informados os dados da equipe.
+1. **Cadastrar Piloto**
+2. **Cadastrar Equipe**
+3. **Cadastrar Pista**
+4. **Listar Pilotos**
+5. **Listar Equipes**
+6. **Listar Pistas**
+7. **Cadastrar Corrida**
+8. **Registrar Resultado**
+9. **Listar Corridas**
+10. **Consultar Resultado de Corrida**
+11. **Pesquisar Piloto**
+0. **Sair**
 
-3. Na opção **Cadastrar pista**, o usuário poderá registrar uma nova pista que fará parte do campeonato. As pistas cadastradas poderão ser consultadas posteriormente por meio da opção **Listar pistas**.
+### Funcionamento das opções
 
-4. Ao escolher **Registrar resultado de corrida**, o usuário informará a corrida realizada, a pista utilizada e os pilotos participantes. Em seguida, será registrada a posição de cada piloto na corrida.
+- **1 - Cadastrar Piloto:** permite inserir os dados de um novo piloto no sistema.
 
-5. Na opção **Mostrar informações de uma corrida**, o usuário poderá consultar os dados de uma corrida específica, visualizando a pista em que foi realizada e a posição obtida por cada piloto.
+- **2 - Cadastrar Equipe:** permite cadastrar uma equipe participante do campeonato.
 
-6. Com os resultados registrados, o sistema calculará e atualizará a **classificação dos pilotos e das equipes**, de acordo com a pontuação obtida nas corridas.
+- **3 - Cadastrar Pista:** permite registrar uma nova pista que será utilizada nas corridas.
 
-7. As opções de listagem e pesquisa permitirão ao usuário consultar os pilotos, equipes e pistas cadastrados no sistema.
+- **4 - Listar Pilotos:** apresenta todos os pilotos cadastrados no sistema.
 
-8. Caso o usuário informe algum dado que não esteja cadastrado, como um piloto, equipe, pista ou corrida, o sistema exibirá uma mensagem informando o problema e retornará ao menu principal.
+- **5 - Listar Equipes:** apresenta todas as equipes cadastradas.
+
+- **6 - Listar Pistas:** apresenta todas as pistas cadastradas no sistema.
+
+- **7 - Cadastrar Corrida:** permite cadastrar uma nova corrida e informar a pista em que ela será realizada.
+
+- **8 - Registrar Resultado:** permite registrar o resultado de uma corrida, informando a posição de cada piloto participante.
+
+- **9 - Listar Corridas:** apresenta todas as corridas cadastradas no sistema.
+
+- **10 - Consultar Resultado de Corrida:** permite selecionar uma corrida e visualizar a pista utilizada e a posição de cada piloto.
+
+- **11 - Pesquisar Piloto:** permite localizar um piloto cadastrado por meio de seu código ou nome.
+
+- **0 - Sair:** encerra a execução do sistema.
+
+Após realizar uma operação, o usuário poderá retornar ao menu principal e escolher outra opção. Caso seja informado um código ou cadastro que não exista, o sistema apresentará uma mensagem informando que o registro não foi encontrado.
