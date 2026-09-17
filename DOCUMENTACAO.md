@@ -23,7 +23,7 @@ Ao iniciar o **RacingGestor**, o usuário terá acesso ao menu principal, que ap
 9. **Listar Corridas**
 10. **Consultar Resultado de Corrida**
 11. **Pesquisar Piloto**
-0. **Sair**
+12. **Sair**
 
 ### Funcionamento das opções
 
@@ -38,7 +38,7 @@ Ao iniciar o **RacingGestor**, o usuário terá acesso ao menu principal, que ap
 - Caso o usuário escolha **9**, o sistema apresentará a lista de todas as corridas cadastradas, informando seus dados e a pista em que serão realizadas.
 - Caso o usuário escolha **10**, o sistema permitirá consultar uma corrida cadastrada, apresentando a pista utilizada e o resultado dos pilotos.
 - Caso o usuário escolha **11**, o sistema permitirá pesquisar um piloto utilizando seu código ou nome, apresentando suas informações e seus resultados registrados nas corridas.
-- Caso o usuário escolha **0**, o sistema encerrará a execução do programa.
+- Caso o usuário escolha **12**, o sistema encerrará a execução do programa.
 
 ### Tratamento de Erros
   As operações que apresentarem erros, como piloto não encontrado, equipe não cadastrada, corrida inexistente ou cadastro duplicado, deverão exibir mensagens claras ao usuário.
