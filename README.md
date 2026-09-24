@@ -1,4 +1,4 @@
-## RacingGestor: Sistema de Gestão do Campeonato de Fórmula 1
+## RacingGestor: Sistema de Gestão de Campeonato de Fórmula 1
 
 ### 👩‍💻 Estudantes
 
