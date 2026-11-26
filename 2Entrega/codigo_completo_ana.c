@@ -96,7 +96,7 @@ int validarData(char data[]) {
             return 0;
         }
     }
-//add o valor em casa variavel
+//add o valor em cada variavel
     sscanf(data, "%2d/%2d/%4d", &dia, &mes, &ano);
 
     if (ano < 1900 || mes < 1 || mes > 12 || dia < 1) {
