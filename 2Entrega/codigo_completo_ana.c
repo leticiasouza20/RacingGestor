@@ -2,6 +2,7 @@
 #include <string.h>
 #include <ctype.h>
 
+//definir os limites máximos de informações
 #define MAX_PILOTOS 50
 #define MAX_EQUIPES 20
 #define MAX_PISTAS 100
@@ -10,7 +11,7 @@
 #define MAX_POSICOES 20
 
 /* ---------- STRUCTS ---------- */
-
+//definir variaveis em grupos
 typedef struct {
     int id_piloto;
     char nome[100];
@@ -50,13 +51,14 @@ typedef struct {
 } Resultado;
 
 /* ---------- VETORES E CONTADORES ---------- */
+//criando vetores 
 
 Piloto pilotos[MAX_PILOTOS];
 Equipe equipes[MAX_EQUIPES];
 Pista pistas[MAX_PISTAS];
 Corrida corridas[MAX_CORRIDAS];
 Resultado resultados[MAX_RESULTADOS];
-
+//contadores 
 int totalPilotos = 0;
 int totalEquipes = 0;
 int totalPistas = 0;
