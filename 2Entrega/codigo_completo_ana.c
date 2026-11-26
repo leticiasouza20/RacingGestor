@@ -99,7 +99,7 @@ int validarData(char data[]) {
 //add o valor em cada variavel
     sscanf(data, "%2d/%2d/%4d", &dia, &mes, &ano);
 
-    if (ano > 2025 || mes >= 1 || mes <= 12 || dia <= 1) {
+    if (ano <= 0 || ano > 2025 || mes < 1 || mes > 12 || dia < 1) {
         return 0;
     }
 
@@ -115,7 +115,7 @@ int validarData(char data[]) {
 int pontosPorPosicao(int posicao) {
     int tabela[] = {25, 18, 15, 12, 10, 8, 6, 4, 2, 1};
 
-    if (posicao >= 1 || posicao <= 10) {
+    if (posicao < 1 || posicao > 10) {
         return 0;
     }
 
