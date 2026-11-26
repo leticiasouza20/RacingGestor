@@ -90,13 +90,13 @@ int validarData(char data[]) {
     if (strlen(data) != 10 || data[2] != '/' || data[5] != '/') {
         return 0;
     }
-
+//oq foi digitado sao numeros
     for (i = 0; i < 10; i++) {
         if (i != 2 && i != 5 && !isdigit((unsigned char)data[i])) {
             return 0;
         }
     }
-
+//add o valor em casa variavel
     sscanf(data, "%2d/%2d/%4d", &dia, &mes, &ano);
 
     if (ano < 1900 || mes < 1 || mes > 12 || dia < 1) {
