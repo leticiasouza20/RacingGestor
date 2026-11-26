@@ -115,7 +115,7 @@ int validarData(char data[]) {
 int pontosPorPosicao(int posicao) {
     int tabela[] = {25, 18, 15, 12, 10, 8, 6, 4, 2, 1};
 
-    if (posicao < 1 || posicao > 10) {
+    if (posicao >= 1 || posicao <= 10) {
         return 0;
     }
 
